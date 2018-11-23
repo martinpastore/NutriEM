@@ -1,5 +1,6 @@
 require('dotenv').config(); // read .env files
 const express = require('express');
+var router = require('./server/routes');
 
 const app = express();
 const port = process.env.PORT || 3008;
@@ -10,7 +11,7 @@ app.use(express.static('dist'));
 // Allow front-end access to node_modules folder
 app.use('/scripts', express.static(`${__dirname}/node_modules/`));
 
-//app.use('/', router);
+app.use('/', router);
 
 // Listen for HTTP requests on port 3000
 app.listen(port, () => {
