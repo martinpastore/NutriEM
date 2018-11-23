@@ -1,3 +1,5 @@
 const burger = require('burgerjs');
     
-burger.module([]);
+burger.module([
+    [{name: 'quienes-somos'},{type: 'page'},{order: '0'},{route: '/'}],
+]);
