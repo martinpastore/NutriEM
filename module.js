@@ -1,8 +1,8 @@
 const burger = require('burgerjs');
     
 burger.module([
-    [{name: 'header'},{type: 'component'},{selector: 'nem-header'}],
-    [{name: 'card'},{type: 'component'},{selector: 'nem-card'}],
+    [{name: 'header'},{type: 'component'},{selector: 'nem-header'}, {properties: []}],
+    [{name: 'card'},{type: 'component'},{selector: 'nem-card'}, {properties: ['text']}],
     [{name: 'quienes-somos'},{type: 'page'},{order: '0'},{route: '/quienes-somos'}],
     [{name: 'servicios'},{type: 'page'},{order: '1'},{route: '/servicios'}],
     [{name: 'empresa'},{type: 'page'},{order: '2'},{route: '/empresa'}],
