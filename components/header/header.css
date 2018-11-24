@@ -3,6 +3,9 @@
     width: 100%;
     padding: 1rem 0;
     box-shadow: 0 0 5px 0 #0a0a0a;
+    background-image: url(../../assets/images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
 }
 
 .header__logo {
