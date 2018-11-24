@@ -1,0 +1,26 @@
+.servicios {
+}
+
+.servicios__container {
+    margin: 0 auto;
+    padding: 10rem 2rem;
+}
+
+.servicios__container-title {
+    color: #ff9933;
+    text-transform: uppercase;
+}
+
+.servicios__cards.container {
+    max-width: 100%;
+}
+
+.servicios__cards .row {
+    padding: .5rem 0;
+}
+
+@media screen and (max-width: 64em) {
+    .servicios__container {
+        padding: 8rem 2rem;
+    }
+}
