@@ -1,8 +1,5 @@
 .text-container {
     height: 100%;
-    background-image: url(../../assets/images/orange-lines.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
     font-family: Quicksand-Medium;
 }
 
