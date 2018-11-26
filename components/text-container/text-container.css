@@ -1,0 +1,27 @@
+.text-container {
+    padding-top: 15%;
+    height: 100%;
+    background-image: url(../../assets/images/orange-lines.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-family: Quicksand-Medium;
+}
+
+.text-container__wrapper {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 4rem;
+    box-shadow: 2px 2px 2px 2px #e3e3e3;
+}
+
+@media screen and (max-width: 64em) {
+    .text-container {
+        padding-top: 30%;
+    }
+
+    .text-container__wrapper {
+        padding: 4rem 2rem;
+    }
+}
