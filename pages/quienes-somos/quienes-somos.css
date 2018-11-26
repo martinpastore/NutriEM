@@ -1,0 +1,19 @@
+.quienes-somos {
+    font-family: Quicksand-Bold;
+}
+
+.quienes-somos__content {
+    padding-top: 15%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.quienes-somos__title {
+    color: #ff9933;
+}
+
+@media screen and (max-width: 35.975em) {
+    .quienes-somos__content {
+        padding: 35% 1rem 0 1rem;
+    }
+}
