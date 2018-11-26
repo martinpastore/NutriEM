@@ -7,11 +7,12 @@
 
 .servicios__container {
     padding-top: 15%;
+    max-width: 1024px;
+    margin: auto;
 }
 
 .servicios__container-title {
     color: #ff9933;
-    max-width: 1024px;
     margin: auto;
 }
 
