@@ -7,7 +7,6 @@
 }
 
 .card .flip-container .flipper .front {
-    background-image: url(../../assets/images/placeholder.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
