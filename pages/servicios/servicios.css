@@ -1,4 +1,7 @@
 .servicios {
+    background-image: url(../../assets/images/orange-lines.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .servicios__container {
