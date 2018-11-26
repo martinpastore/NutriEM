@@ -10,10 +10,8 @@
 .text-container__wrapper {
     max-width: 600px;
     margin: auto;
-    border: 1px solid transparent;
     border-radius: 5px;
     padding: 4rem;
-    box-shadow: 2px 2px 2px 2px #e3e3e3;
 }
 
 @media screen and (max-width: 64em) {
