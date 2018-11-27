@@ -4,6 +4,7 @@ burger.module([
     [{name: 'header'},{type: 'component'},{selector: 'nem-header'}, {properties: []}],
     [{name: 'card'},{type: 'component'},{selector: 'nem-card'}, {properties: ['text']}],
     [{name: 'text-container'},{type: 'component'},{selector: 'nem-text-container'}, {properties: ['text']}],
+    [{name: 'contact'},{type: 'component'},{selector: 'nem-contact'}, {properties: []}],
     [{name: 'quienes-somos'},{type: 'page'},{order: '0'},{route: '/quienes-somos'}],
     [{name: 'servicios'},{type: 'page'},{order: '1'},{route: '/servicios'}],
     [{name: 'empresa'},{type: 'page'},{order: '2'},{route: '/empresa'}],
