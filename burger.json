@@ -2,7 +2,7 @@
   "title": "NutriEM - Asesoramiento en Nutrición",
   "scripts": [
     "jquery-3.3.1.min.js",
-    "bootstrap.js"
+    "bootstrap.bundle.js"
   ],
   "styles": [
     "global.css",

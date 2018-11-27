@@ -1,5 +1,5 @@
 function empresaOnInit() {
-    switch(routeParams.id) {
+    switch (routeParams.id) {
         case 'mision':
             document.getElementById('mision').style.display = 'block';
             document.getElementById('vision').style.display = 'none';
