@@ -42,6 +42,10 @@
     color: #ffc107;
 }
 
+.header__links .dropdown .dropdown-item {
+    color: #ff9933;
+}
+
 @media screen and (max-width: 62em) {
     .header {
         background-position: center center;
@@ -59,5 +63,9 @@
 
     .header__links>.navbar-toggler {
         outline: none;
+    }
+
+    .header__links .dropdown .dropdown-menu {
+        border: none;
     }
 }
