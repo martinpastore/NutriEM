@@ -15,12 +15,10 @@ $('.contact').submit(function(e) {
     httpRequest('POST', 'http://nutriem.com.ar:3008/contact', contact)
         .then(
             (data) => {
-
             }
         )
         .catch(
             (error) => {
-
             }
         )
 });
