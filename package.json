@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "burgerjs": "0.0.57",
+    "burgerjs": "0.0.59",
     "dotenv": "^6.1.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemailer": "^4.7.0"
   }
 }
