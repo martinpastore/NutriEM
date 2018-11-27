@@ -1,0 +1,18 @@
+.contact {
+
+}
+
+.contact label {
+    color: #ff9933;
+}
+
+.btn.btn-primary {
+    background-color: #79d279;
+    border-color: #79d279;
+}
+
+.contact .input-group-prepend .input-group-text {
+    background-color: #79d279;
+    border-color: #79d279;
+    color: #fff;
+}
