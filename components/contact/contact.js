@@ -12,7 +12,7 @@ $('.contact').submit(function(e) {
         mensaje: $(`#${form} #inputMensaje`).val()
     };
 
-    httpRequest('POST', 'http://nutriem.com.ar:3008/contact', contact)
+    httpRequest('POST', '/contact', contact)
         .then(
             (data) => {
             }
