@@ -12,13 +12,25 @@ $('.contact').submit(function(e) {
         mensaje: $(`#${form} #inputMensaje`).val()
     };
 
-    httpRequest('POST', 'http://localhost:3008/contact', contact)
-        .then(
-            (data) => {
-            }
-        )
-        .catch(
-            (error) => {
-            }
-        )
+    if (contact.empresa !== '' && contact.email !== '' && contact.telefono !== '') {
+        httpRequest('POST', 'http://localhost:3008/contact', contact)
+            .then(
+                (data) => {
+                }
+            )
+            .catch(
+                (error) => {
+                }
+            );
+    } else {
+        if (contact.empresa === '') {
+            $(`#${form} #inputEmpresa`).addClass('is-invalid');
+        }
+        if (contact.email === '') {
+            $(`#${form} #inputEmail`).addClass('is-invalid');
+        }
+        if (contact.telefono === '') {
+            $(`#${form} #inputTelefono`).addClass('is-invalid');
+        }
+    }
 });
