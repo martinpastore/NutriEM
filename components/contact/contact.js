@@ -12,7 +12,7 @@ $('.contact').submit(function(e) {
         mensaje: $(`#${form} #inputMensaje`).val()
     };
 
-    httpRequest('POST', '/contact', contact)
+    httpRequest('POST', 'http://localhost:3008/contact', contact)
         .then(
             (data) => {
             }

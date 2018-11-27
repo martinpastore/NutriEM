@@ -35,4 +35,7 @@ exports.sendEmail = (req, res) => {
             // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
         });
     });
-}
+    res.status(200).send({
+        mensaje: 'paso'
+    });
+};
