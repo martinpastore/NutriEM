@@ -16,6 +16,7 @@ $('.contact').submit(function(e) {
         httpRequest('POST', 'http://localhost:3008/contact', contact)
             .then(
                 (data) => {
+                    console.log(data);
                 }
             )
             .catch(
