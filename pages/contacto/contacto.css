@@ -17,7 +17,17 @@
 }
 
 .contacto form {
-    padding: 4rem 0;
+    padding-top: 4rem;
+}
+
+.contacto__footer {
+    color: #ff9933;
+    font-size: 20px;
+}
+
+.contacto__footer a:hover {
+    text-decoration: none;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 35.975em) {
