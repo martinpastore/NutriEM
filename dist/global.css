@@ -18,6 +18,11 @@
     src: url(../assets/fonts/Quicksand-Light.ttf);
 }
 
+@font-face {
+    font-family: Quicksand-Italic;
+    src: url(../assets/fonts/Quicksand-Italic.otf);
+}
+
 html, body {
     width: 100%;
     height: 100%;

@@ -16,6 +16,19 @@
     color: #ff9933;
 }
 
+.quienes-somos__wrapper {
+    padding: 3.5rem 0;
+}
+
+.quienes-somos__text  .text-container__wrapper,
+.quienes-somos__quote  .text-container__wrapper {
+    padding: .5rem 0;
+}
+
+.quienes-somos__quote p{
+    font-family: Quicksand-Italic;
+}
+
 @media screen and (max-width: 35.975em) {
     .quienes-somos {
         background-image: none;
