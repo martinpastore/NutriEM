@@ -5,6 +5,7 @@
     box-shadow: 0 0 5px 0 #0a0a0a;
     background-color: #FFF;
     font-family: Quicksand-Regular;
+    cursor: pointer;
 }
 
 .header__logo {

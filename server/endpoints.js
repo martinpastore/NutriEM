@@ -11,7 +11,7 @@ exports.sendEmail = (req, res) => {
 
     var mailOptions = {
         from: 'admin@nutriem.com.ar',
-        to: 'hola@nutriem.com.ar',
+        to: 'consultas@nutriem.com.ar',
         subject: 'Nuevo Mensaje (1)',
         text: 'Mensaje:' + req.body
     };
