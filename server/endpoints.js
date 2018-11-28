@@ -2,16 +2,16 @@ const nodemailer = require('nodemailer');
 
 exports.sendEmail = (req, res) => {
     var transporter = nodemailer.createTransport({
-        service: 'gmail',
+        service: 'zoho',
         auth: {
-            user: 'webfortinenses@gmail.com',
-            pass: 'rp4store1'
+            user: 'admin@nutriem.com.ar',
+            pass: '@Nutriem2018'
         }
     });
 
     var mailOptions = {
-        from: 'webfortinenses@gmail.com',
-        to: 'martinpablopastore@gmail.com',
+        from: 'admin@nutriem.com.ar',
+        to: 'hola@nutriem.com.ar',
         subject: 'Nuevo Mensaje (1)',
         text: 'Mensaje: Paso'
     };
