@@ -13,7 +13,7 @@ exports.sendEmail = (req, res) => {
         from: 'admin@nutriem.com.ar',
         to: 'hola@nutriem.com.ar',
         subject: 'Nuevo Mensaje (1)',
-        text: 'Mensaje: Paso'
+        text: 'Mensaje:' + req.body
     };
 
     transporter.sendMail(mailOptions, function(error, info){
