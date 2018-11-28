@@ -13,7 +13,7 @@ $('.contact').submit(function(e) {
     };
 
     if (contact.empresa !== '' && contact.email !== '' && contact.telefono !== '') {
-        httpRequest('POST', 'http://localhost:3008/contact', contact)
+        httpRequest('POST', '/contact', contact)
             .then(
                 (data) => {
                     console.log(data);
