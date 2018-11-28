@@ -47,7 +47,8 @@
 .back {
     -webkit-transform: rotateY(180deg);
     background: #b3e6b3;
-    padding: 1rem;
+    padding: 4rem;
     color: #FFF;
     font-family: Quicksand-Bold;
+    text-align: center;
 }

@@ -16,6 +16,14 @@
     color: #ff9933;
 }
 
+.empresa__content .text-container__wrapper {
+    padding: .5rem 0;
+}
+
+.empresa__content .empresa__text {
+    padding: 3.5rem 0;
+}
+
 @media screen and (max-width: 35.975em) {
     .empresa {
         background-image: none;
