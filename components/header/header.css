@@ -48,13 +48,11 @@
 }
 
 @media screen and (max-width: 62em) {
-    .header {
-        background-position: center center;
-        background-size: cover;
-    }
-
     .header__logo {
-        display: none;
+        width: 130px;
+        padding: 1rem 2rem;
+        float: right;
+        margin: 0;
     }
 
     .header__links {
