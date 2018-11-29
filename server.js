@@ -1,5 +1,6 @@
 require('dotenv').config(); // read .env files
 const express = require('express');
+const bodyParser = require('body-parser');
 var router = require('./server/routes');
 
 const app = express();
@@ -16,6 +17,8 @@ app.use(allowCrossDomain);
 
 // Set public folder as root
 app.use(express.static('dist'));
+
+app.use(bodyParser.json());
 
 // Allow front-end access to node_modules folder
 app.use('/scripts', express.static(`${__dirname}/node_modules/`));
