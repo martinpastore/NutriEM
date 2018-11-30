@@ -1,9 +1,4 @@
 .quienes-somos {
-    font-family: Quicksand-Bold;
-    background-image: url(../../assets/images/logo.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 400px;
     height: 100%;
 }
 
@@ -11,10 +6,6 @@
     padding-top: 180px;
     max-width: 600px;
     margin: auto;
-}
-
-.quienes-somos__title {
-    color: #ff9933;
 }
 
 .quienes-somos__wrapper {

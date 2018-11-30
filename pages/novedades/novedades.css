@@ -1,0 +1,9 @@
+.novedades {
+    height: 100%;
+}
+
+.novedades__content {
+    padding-top: 180px;
+    max-width: 600px;
+    margin: auto;
+}
