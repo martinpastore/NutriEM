@@ -1,8 +1,9 @@
 .empresa {
     font-family: Quicksand-Bold;
-    background-image: url(../../assets/images/nutri.jpg);
+    background-image: url(../../assets/images/logo.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 400px;
     height: 100%;
 }
 
