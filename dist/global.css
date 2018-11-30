@@ -36,10 +36,10 @@ html, body {
 
 .wrapper {
     font-family: Quicksand-Bold;
-    background-image: url(../assets/images/logo.png);
+    background-image: url(../assets/images/square-2721757_1280.png);
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 400px;
 }
 
 .title {
