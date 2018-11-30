@@ -28,6 +28,9 @@ html, body {
     height: 100%;
     margin: 0;
     font-family: Quicksand-Regular;
+}
+
+body {
     background-image: url(../assets/images/square-2721757_1280.png);
     background-position: center center;
     background-size: cover;
