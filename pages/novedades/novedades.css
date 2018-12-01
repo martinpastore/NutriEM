@@ -7,6 +7,19 @@
     margin: auto;
 }
 
+.novedades__image {
+    max-width: 100%;
+    box-shadow: 1px 1px 1px 1px #e3e3e3;
+}
+
+.novedades__text-title {
+    padding: 1rem 0;
+}
+
+.novedades__text-content {
+    font-family: Quicksand-Regular;
+}
+
 @media screen and (max-width: 35.975em) {
     .novedades__content {
         padding-top: 150px;
