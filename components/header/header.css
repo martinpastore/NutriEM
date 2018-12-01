@@ -9,14 +9,14 @@
 }
 
 .header__logo {
-    width: 200px;
-    padding: 1rem 3rem;
+    width: 170px;
+    padding: .5rem 3rem;
     float: left;
 }
 
 .header__links {
     float: right;
-    padding: 3rem;
+    padding: 1.5rem 3rem;
 }
 
 .header__links a {
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 62em) {
     .header__logo {
-        width: 130px;
+        width: 120px;
         padding: 1rem 2rem;
         float: right;
         margin: 0;
@@ -58,7 +58,7 @@
 
     .header__links {
         float: none;
-        padding: 2rem 1rem;
+        padding: 1.5rem 1rem;
     }
 
     .header__links>.navbar-toggler {
