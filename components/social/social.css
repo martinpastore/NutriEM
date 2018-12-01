@@ -1,0 +1,50 @@
+.social {
+    float: left;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    display: grid;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social__text {
+    vertical-align: middle;
+    color: #91DC5A;
+    margin-left: -200px;
+}
+
+.social__icon:hover + .social__text {
+    animation: slidein 1s;
+    animation-fill-mode: forwards;
+}
+
+.social__icon {
+    width: 32px;
+    margin: 1rem;
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@media screen and (max-width: 992px) {
+    .social {
+        background: #fff;
+        float: none;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .social__icon {
+        display: inline-block;
+        width: 32px;
+    }
+}
