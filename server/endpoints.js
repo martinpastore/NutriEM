@@ -1,5 +1,7 @@
 const nodemailer = require('nodemailer');
 const inlineBase64 = require('nodemailer-plugin-inline-base64');
+const redis = require('redis');
+const client = redis.createClient(process.env.REDIS_URL);
 
 exports.sendEmail = (req, res) => {
     var transporter = nodemailer.createTransport({
@@ -49,5 +51,14 @@ exports.sendEmail = (req, res) => {
             console.log(info.response);
             res.status(200).json({message: info.response});
         }
+    });
+};
+
+exports.getNews = function (req, res) {
+    client.get('news', function (error, result) {
+        if (error) {
+            res.json(error);
+        }
+        res.json(result);
     });
 };

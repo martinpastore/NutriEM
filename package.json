@@ -17,6 +17,7 @@
     "email-templates": "^5.0.2",
     "express": "^4.16.4",
     "nodemailer": "^4.7.0",
-    "nodemailer-plugin-inline-base64": "^2.1.1"
+    "nodemailer-plugin-inline-base64": "^2.1.1",
+    "redis": "^2.8.0"
   }
 }

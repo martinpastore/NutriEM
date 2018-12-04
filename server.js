@@ -1,7 +1,8 @@
 require('dotenv').config(); // read .env files
 const express = require('express');
 const bodyParser = require('body-parser');
-var router = require('./server/routes');
+const router = require('./server/routes');
+
 
 const app = express();
 const port = process.env.PORT || 3008;
