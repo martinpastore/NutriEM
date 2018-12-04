@@ -55,7 +55,7 @@ exports.sendEmail = (req, res) => {
 };
 
 exports.getNews = function (req, res) {
-    client.get('news', function (error, result) {
+    client.lrange('news', 0, -1, function (error, result) {
         if (error) {
             res.json(error);
         }
