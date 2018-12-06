@@ -1,10 +1,10 @@
 function novedadesOnInit() {
     httpRequest('GET', '/news')
         .then(
-            (data) => {
-                data = JSON.parse(data);
-                for (let i in data) {
-                    const info = JSON.parse(data[i]);
+            (response) => {
+                response = JSON.parse(response);
+                for (let i = response.data.length - 1; i >= 0; i--) {
+                    const info = JSON.parse(response.data[i]);
                     $('#novedades').append(`<div class="novedades__content-new">
                 <span>${info.fecha}</span>
                 <img id="novedadesImagen" class="novedades__image" src="${info.image}" alt="">
