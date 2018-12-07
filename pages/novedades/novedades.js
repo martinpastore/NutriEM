@@ -1,4 +1,7 @@
 function novedadesOnInit() {
+    if ($('.novedades__content-new')) {
+        $('.novedades__content-new').remove();
+    }
     httpRequest('GET', '/news')
         .then(
             (response) => {
