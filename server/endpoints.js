@@ -57,8 +57,11 @@ exports.sendEmail = (req, res) => {
 exports.getNews = function (req, res) {
     client.keys('*', function (err, keys) {
         if (err) return console.log(err);
+        const index = keys.indexOf('id');
+        if (index > -1) {
+            keys.splice(index, 1);
+        }
         keys.sort(function(a, b){return b-a});
-        console.log(keys);
         if(keys){
             async.map(keys, function(key, cb) {
                 client.get(key, function (error, value) {
