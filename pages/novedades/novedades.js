@@ -22,7 +22,9 @@ function novedadesOnInit() {
                 }
 
                 if (c <= 0) {
-                    $('#novedades').append(`<span style="width:100%;float:left;text-align:center;padding: 3rem 0;">Todavía no hay novedades.</span>`);
+                    if (!$('#noNovedades')) {
+                        $('#novedades').append(`<span id="noNovedades" style="width:100%;float:left;text-align:center;padding: 3rem 0;">Todavía no hay novedades.</span>`);
+                    }
                 }
 
                 $('.spinner').addClass('hide');
