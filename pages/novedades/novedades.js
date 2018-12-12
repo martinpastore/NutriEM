@@ -1,4 +1,5 @@
 function novedadesOnInit() {
+    $('#noNovedades').remove();
     $('.spinner').removeClass('hide');
     if ($('.novedades__content-new')) {
         $('.novedades__content-new').remove();
@@ -22,7 +23,6 @@ function novedadesOnInit() {
                 }
 
                 if (c <= 0) {
-                    $('#noNovedades').remove();
                     $('#novedades').append(`<span id="noNovedades" style="width:100%;float:left;text-align:center;padding: 3rem 0;">Todavía no hay novedades.</span>`);
                 }
 
