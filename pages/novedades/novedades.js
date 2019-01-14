@@ -11,6 +11,7 @@ function novedadesOnInit() {
                 response = JSON.parse(response);
                 for (let i in response.data) {
                     const info = JSON.parse(response.data[i]);
+                    info.contenido = info.contenido.replace(/\s\s+/g, '<br>');
                     if (info.fecha) {
                         $('#novedades').append(`<div class="novedades__content-new">
                 <span>${info.fecha}</span>
