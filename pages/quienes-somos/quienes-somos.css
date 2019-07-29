@@ -25,6 +25,10 @@
     font-family: Quicksand-Italic;
 }
 
+.quienes-somos__bold {
+    font-family: Quicksand-Bold;
+}
+
 @media screen and (max-width: 35.975em) {
     .quienes-somos__content {
         padding-top: 150px;
