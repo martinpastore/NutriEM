@@ -2,6 +2,7 @@ const burger = require('burgerjs');
     
 burger.module([
     [{name: 'header'},{type: 'component'},{selector: 'nem-header'}, {properties: []}],
+    [{name: 'disclaimer'},{type: 'component'},{selector: 'nem-disclaimer'}, {properties: []}],
     [{name: 'card'},{type: 'component'},{selector: 'nem-card'}, {properties: ['text']}],
     [{name: 'social'},{type: 'component'},{selector: 'nem-social'}, {properties: []}],
     [{name: 'text-container'},{type: 'component'},{selector: 'nem-text-container'}, {properties: ['text']}],
