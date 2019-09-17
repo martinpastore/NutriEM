@@ -167,6 +167,15 @@
 }
 
 @media screen and (max-width: 320px) {
+    .disclaimer {
+        border-left: 25px solid #7ed957;
+        border-bottom: 25px solid #7ed957;
+    }
+
+    .disclaimer__title {
+        padding-bottom: 1rem;
+    }
+
     .disclaimer__title h5{
         font-size: 14px;
     }
