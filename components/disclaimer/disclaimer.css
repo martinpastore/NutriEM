@@ -165,3 +165,21 @@
         left: -1.3rem;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .disclaimer__title h5{
+        font-size: 14px;
+    }
+
+    .disclaimer__title h3{
+        font-size: 18px;
+    }
+
+    .disclaimer__info {
+        padding: 0 2rem;
+    }
+
+    .disclaimer__info::before {
+        left: 2.5rem;
+    }
+}
