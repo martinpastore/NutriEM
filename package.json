@@ -16,7 +16,7 @@
     "burgerjs": "0.0.62",
     "dotenv": "^6.1.0",
     "email-templates": "^5.0.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "nodemailer": "^4.7.0",
     "nodemailer-plugin-inline-base64": "^2.1.1",
     "redis": "^2.8.0"
